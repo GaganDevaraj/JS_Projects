@@ -19,16 +19,17 @@
                     <input type="number">
                 </div>
                 <div class="calculator-buttons">
-                    <button>+</button>
-                    <button>-</button>
-                    <button>/</button>
-                    <button>*</button>
+                    <button type="button" id="btn-add">+</button>
+                    <button type="button" id="btn-subtract">-</button>
+                    <button type="button" id="btn-divide">/</button>
+                    <button type="button" id="btn-multiply">*</button>
                 </div>
             </form>
         </div>
         <div class="calculator-result">
             <div class="calculator-output">
-                <p>Result: 0</p>
+                <p id="current-calculation">0</p>
+                <p id="current-calculation">Result: <span id="current-result">0</span></p>
             </div>
         </div>
     </div>
